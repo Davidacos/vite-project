@@ -1,8 +1,16 @@
 import React from 'react'
+import Personaje from '../../assets/personaje.png'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section className=''>
+      <div>
+       texto
+      </div>
+      <div>
+        <img src={Personaje} alt="El personaje de jesus:" />
+      </div>
+    </section>
   )
 }
 

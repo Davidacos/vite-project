@@ -45,7 +45,8 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <nav className='bg-[#2f1a58]'>
+        <nav className='fixed top-0 left-0 w-full backdrop-blur-md z-50'
+            style={{ backgroundColor: 'rgba(74, 29, 105, 0.3)' }}>
             <div className='flex justify-between items-center p-4'>
                 <div>
                     <a href="/">
